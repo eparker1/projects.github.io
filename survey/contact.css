@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans,Arial,sans-serif';
+}
+
+#number {
+    background-color: rgb(107, 0, 62);
+    color: #FFFF;
+    height: 50px;
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    line-height: 30px;
+    float: right;
+    margin: 10px 20px 10px 0px;
+    font-weight: 600;
+}
+
+#bg {
+    background: url("./images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-items {
+    position: fixed;
+    top: 50px;
+    z-index: 4;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.menu-items_show {
+    background: white;
+}
+
+.nav-items_show {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(107, 0, 62);
+    transition: 0.5s;
+}
+
+.width {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.width2 {
+    width: 80%;
+    margin: auto;
+
+}
+
+.menu2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 125px;
+    justify-content: center;
+}
+
+.head3 p{
+    display: flex;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.head1 {
+    background-color: rgb(107, 0, 62, 0.6);
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.nav-items {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+li {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+hr {
+    position: absolute;
+    margin-top: 5px 0px 20px 0px;
+    top: 120px;
+    z-index: 3;
+    width: 79%;
+}
+
+.hr_disappear {
+    z-index: 2;
+}
+
+.nav, .items {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nth{
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgb(107, 0, 62);
+    padding: 10px;
+}
+
+.nth_show {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
