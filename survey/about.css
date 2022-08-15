@@ -454,7 +454,7 @@ footer {
         justify-content: center;
     }
     
-    .head3 p{
+    .head3 p{ 
         display: flex;
         font-weight: 700;
         font-size: 50px;

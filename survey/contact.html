@@ -48,9 +48,9 @@
                         <ul class="nav">
                             <li><a href="about.html" class="nav-items one">About</a></li>
                             <li><a href="services.html" class="nav-items three">Services</a></li>
-                            <li><a href="" class="nav-items four ">Contact</a></li>
+                            <li><a href="contact.html" class="nav-items four ">Contact</a></li>
                             <li><a href="FAQ.html" class="nav-items five">FAQ</a></li>
-                            <li class="center-request"><a href="" class="nav-items nth">Request a Survey</a></li>
+                            <li class="center-request"><a href="request.html" class="nav-items nth">Request a Survey</a></li>
                         </ul>
                         <div class="navbar">
                             <span class="bar"></span>
@@ -72,7 +72,133 @@
                 </div>
             </div>
         </div>
-
+        <div class="body">
+            <div class="head">
+                <p class="cont-title">CONTACT GEOMAPS CONSULT</p>
+            </div>
+            <div class="contact-information">
+                <div class="contacts">
+                    <div>
+                        <span><img src="./images/location-2950.svg" alt="" height="50px"><span class="text">Community 25, Tema</span></span>
+                    </div>
+                    <div>
+                        <a href=""><img src="./images/mail-142.svg" alt="" height="50px"><span class="text">   Email Us</span></a>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <div>
+                        <span><img src="./images/mobile-phone-697.svg" alt="" height="50px"><span class="text">(0) 242 553 398</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="head">
+                <p class="cont-title">REQUEST A SURVEY</p>
+                <P class="cont-title-sub">Please fill out the form below for a survey request. <a href="FAQ.html" class="click-here">Click here </a>Click here for frequently asked questionss</P>
+            </div>
+            <div class="form">
+                <p class="form-head">REQUESTING PARTY INFORMATION</p>
+                <form autocomplete="off" class="form">
+                    <label for="contact-information" aria-required="true"><b>Contact Information</b> <span class="asterix">*</span></label><br><br>
+                    <input name = "contact-information" type="text" required class="box"/>
+                </form>
+                <form autocomplete="off" class="form">
+                    <label for="contact-name" aria-required="true"><b>Contact Name</b> <span class="asterix">*</span></label><br><br>
+                    <input name = "contact-name" type="text" required class="box"/>
+                </form>
+                <form autocomplete="off" class="form">
+                    <label for="address" aria-required="true"><b>Address</b> <span class="asterix">*</span></label><br><br>
+                    <input name = "address" type="text" required class="box"/>
+                </form>
+                <form autocomplete="off" class="form">
+                    <label for="address" aria-required="true">Street Address </label><br><br>
+                    <input name = "address" type="text" class="box"/>
+                </form>
+                <div class="forms-row">
+                    <form autocomplete="off" class="form side">
+                        <label for="City" aria-required="true">City </label><br><br>
+                        <input name = "City" type="text" class="box"/>
+                    </form>
+                    <form autocomplete="off" class="form">
+                        <label for="region" aria-required="true">Region </label><br><br>
+                        <input name = "region" type="text" class="box"/>
+                    </form>
+                </div>
+                <p class="form-head">PROPERTY TO BE SURVEYED</p>
+                <p>Please provide as much information as possible</p>
+                <form autocomplete="off" class="form">
+                    <label for="address" aria-required="true"><b>Address</b> <span class="asterix">*</span></label><br><br>
+                    <input name = "address" type="text" required class="box"/>
+                </form>
+                <form autocomplete="off" class="form">
+                    <label for="address" aria-required="true">Street Address </label><br><br>
+                    <input name = "address" type="text" class="box"/>
+                </form>
+                <div class="forms-row">
+                    <form autocomplete="off" class="form side">
+                        <label for="City" aria-required="true">City </label><br><br>
+                        <input name = "City" type="text" class="box"/>
+                    </form>
+                    <form autocomplete="off" class="form">
+                        <label for="region" aria-required="true">Region </label><br><br>
+                        <input name = "region" type="text" class="box"/>
+                    </form>
+                </div>
+                <p class="file-text"><b>File</b></p>
+                <p>Please upload a copy of the legal description or title below</p>
+                <input type="file" id="real-file" hidden="hidden"/>
+                <button type="button" id="custom-button">CHOOSE A FILE</button>
+                <span id="custom-text">No file chosen</span>
+                <div>
+                    <p class="form"><b>Type of survey requested</b></p>
+                    <p>If unsure, please list the reason you are requesting the survey.</p>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="type your reason..."></textarea>
+                </div>
+                <div class="forms-row">
+                    <form autocomplete="off" class="form side date-input">
+                        <div>
+                            <label for="need-by-date" aria-required="true"><b>Need by date</b> </label><br><br>
+                            <input name = "need-by-date" type="text" placeholder= "dd/mm/yyyy" class="box top1"/>
+                        </div>
+                        <img src="./images/calendar.png" alt="" height="30px" class="calendar">
+                    </form>
+                    <form autocomplete="off" class="form date-input">
+                        <div>
+                            <label for="close-date" aria-required="true"><b>Closing date (if applicable)</b> </label><br><br>
+                            <input name = "close-date" type="text" placeholder= "dd/mm/yyyy" class="box top"/>
+                        </div>
+                        <img src="./images/calendar.png" alt="" height="30px" class="calendar">
+                    </form>
+                </div>
+                <p class="duration">please allow about 2 weeks</p>
+                <label for="contact-information" aria-required="true"><b>Consent</b> <span class="asterix">*</span></label><br><br>
+                <p>If this is a request for survey this is a commitment to have Geomaps Consult complete the work requested above. Cancellation of this commitment does not release you of any charges incurred prior to cancellation. Payment is due prior to delivery of final product.</p>
+                <input type="checkbox" class="checkbox"/> I agree.
+                <div>
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="auto-width">
+                <p class="footer-head">GEOMAPS CONSULT</p>
+                <span class="footer-link center"><a href="#"><p class="footer-textlink">REQUEST A SURVEY</p></a></span>
+                <p class="footer-info">Community 25, Tema</p>
+                <p class="footer-info"><span>+233 (0) 242 553 398</span> / <span>+233 (0) 262 553 398</span></p>
+                <p class="footer-info">geomapsconsult@gmail.com</p>
+            </div>
+        </div>
+        <footer>
+            <div class="auto-width-2">
+                <div class="footer-info-row">
+                    <a href="" class="foot-info">Home |</a>
+                    <a href="" class="foot-info">Terms and Conditions |</a>
+                    <a href="" class="foot-info">Privacy Policy</a>
+                </div>
+                <div>
+                    <p class="copyright-info">2022 Geomaps Consult | Community 25, Tema</p>
+                </div>
+            </div>
+        </footer>
 
 
 

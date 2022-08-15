@@ -86,3 +86,28 @@ const observer2 = new IntersectionObserver(callback2function, {
  
 
 observer2.observe(menu2);
+
+// choose a file
+const real_file_button = document.querySelector("#real-file");
+const custom_button = document.querySelector("#custom-button");
+const custom_text = document.querySelector("#custom-text");
+
+custom_button.addEventListener("click", function(){
+    real_file_button.click();
+});
+
+real_file_button.addEventListener("change", function(){
+    if (real_file_button.value){
+        custom_text.innerHTML = real_file_button.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+    }else {
+        custom_text.innerHTML = "No file chosen";
+
+    }
+});
+
+//submit button 
+const submit = document.querySelector(".submit");
+
+submit.addEventListener("click", function(){
+    alert("Your request form has been submitted successfully")
+})
